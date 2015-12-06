@@ -1,0 +1,376 @@
+.banner {
+    width: 100%;
+    float:left;
+}
+
+.logo {
+    width: 10%;
+    margin-left: 1%;
+    background-color: white;
+    float: left;
+}
+
+#nav {
+    width: 87%;
+    background-color: white;
+    text-align: right;
+    color: #b31b1b;
+    float: right;
+    margin-top: 36px;
+}
+
+/* replace margin-top with a vertical center align command */
+
+.logo img {
+    width: 100%;
+}
+
+.link {
+    text-align: right;
+    color: #b31b1b;
+    font-size: 22pt;
+    font-family: 'Slabo 27px', serif;
+    text-decoration: none;
+    margin-left: 1.8%;
+    margin-right: 1.8%;
+}
+
+.link:hover {
+    color: #222222;
+}
+
+.link:active {
+    color: #222222;
+}
+
+.identity_rmt {
+    background-image: url('../img/crowd2.jpg');
+    background-size: cover;
+    width: 100%;
+    float: left;
+    display: inline;
+    /*position: relative;*/
+    color: white;
+    height: 20em;
+    border: solid 4px #222222;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+}
+
+
+h2 {
+    width: 100%;
+    color: white;
+    font-size: 40pt;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    text-align: right;
+    vertical-align: top;
+    margin-top: 0%;
+}
+
+.presentations_header_rmt {
+    color: #b31b1b;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    font-size: 30pt;
+    text-align: left;
+    /*float: left;*/
+    margin: 3%;
+    width: 94%;
+}
+
+.presentations_info_rmt {
+    color: #222222;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    font-size: 16.5pt;
+    text-align: left;
+    /*float: left;*/
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 7%;
+    width: 94%;
+}
+
+#contactus h1{
+	position: absolute;
+	left: 100px;
+	top: 150px;
+}
+
+#contactus p{
+	position: absolute;
+	left: 100px;
+	top: 220px;
+	width: 1000px;
+}
+
+#contactus img{
+	position: absolute;
+	left: 100px;
+	top: 310px;
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+}
+
+#people_container_ys {
+    color: #222222;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 7%;
+    width: 94%;
+}
+
+.people_header_ys {
+    font-style: italic;
+    color: #000;
+    font-size: 20pt;
+    clear: both;
+    padding-top: 2%;
+    margin-left:2%;
+}
+
+.people_name_ys {
+    font-weight: bold;
+    color: #000;
+    font-size: 17pt;
+    clear:both;
+}
+
+.people_info_ys { /* change */
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+}
+
+.people_img_ys {
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin-right: 1%;
+    padding-right: 2%; /* change */
+}
+
+.people_p_ys {
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    font-size: 13pt;
+    margin-right: 2%; /* change */
+}
+.people_topheader_ys { /* change */
+    color: #b31b1b;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    font-size: 30pt;
+    text-align: left;
+    float: left;
+    margin: 2%;
+    width: 94%;
+}
+h1.people_name_ys {
+    font-weight: bold;
+    color: #000;
+    font-size: 17pt;
+    clear:both;
+    
+    margin-left: 2%; /* change */
+}
+/*ul { /* change 
+    list-style-type: none;
+    width: 12%;
+}*/
+
+ul.header_ys { /* change */
+    float: left;
+    padding-top: 0.5em;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 2%;
+    list-style:none;
+}
+
+ul.graduate_ys { /* change */
+    float: left;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 4%;
+    text-align: left;
+    list-style: none;
+}
+
+ul.undergrad_ys { /* change */
+    float: left;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    text-align: left;
+    list-style: none;
+    
+}
+
+a.ys { /* change */
+    font-size: 12pt;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: left;
+}
+
+a.ys:hover { /* change */
+    color: #b31b1b;
+}
+
+  a.ys:visited { /* change */
+    color: #B6B6B4;
+    text-decoration: line-through;
+  }
+  
+hr { /* change */
+   height: 0;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+}
+/********** FOOTER ****************/
+html, body{
+    height:100%;
+}
+#outer_container{
+    height:100%;
+}
+#container{
+    height:90%;
+}
+#footer{
+    text-align:center;
+    font-size:0.8em;
+    font-weight:400;
+    color:black;
+    width:100%;
+}
+.credit_mmfj{
+    font-size:0.7em;
+    font-weight:300;
+    color:black;
+}
+/********** HOME PAGE *****************/
+#home_title_mmfj {
+    color: #b31b1b;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    font-size: 40pt;
+    text-align: center;
+    margin-top:3%;
+    width: 94%;
+}
+#quote_mmfj{
+    font-size:30pt;
+    text-align:center;
+    margin:3%;
+    width:94%;
+    font-family:'Tangerine';
+    font-weight:400;
+}
+.author{
+    color:gray;
+    font-size:12pt;
+}
+#tabletitle_mmfj{
+    text-align:left;
+    font-size:30pt;
+    margin-bottom:.25em;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    color: black;
+}
+#main_content{
+    width:94%;
+    margin-left:3%;
+    margin-right: 3%;
+}
+#inner_main_content{
+    overflow:auto;
+}
+#news_pane_mmfj{
+    margin-left:0%;
+    width:30%;
+    margin-right3%;
+    float:left;
+    border:dotted grey;
+    padding:5px 5px 5px 5px;
+}
+#content_mmfj{
+    margin-left:3%;
+    width:61%;
+    margin-right:3%;
+    float:left;
+}
+.inner_content_mmfj{
+    color: #222222;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    font-size: 15pt;
+    text-align: left;
+    margin-bottom:3%;
+}
+#special_inner_content_mmfj{
+    color: #222222;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    font-size: 15pt;
+    text-align: left;
+    margin-bottom:3%;
+}
+#special_header_mmfj{
+    color: #b31b1b;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    font-size: 30pt;
+    text-align: left;
+    margin-bottom:3%;
+}
+.header_mmfj {
+    color: #b31b1b;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    font-size: 20pt;
+    text-align: left;
+    margin-bottom:3%;
+}
+#news_pane_mmfj a{
+    text-align:left;
+    font-family:serif;
+    font-size:20pt;
+    text-decoration: none;
+    color:black;
+}
+#news_pane_mmfj a:hover{
+    color: #b31b1b;
+}
+/*********New Additions************/
+#map{
+    width: 500px;
+    height: 400px;
+    left: 200px;
+    border: 2px solid black;
+}
+
+.creditmap{
+    bottom: -475px;
+    font-size: 10px;
+}
+
+#directions{
+    width: 700px;
+    left: 130px;
+}
+
+.directions{
+    font-size: 15px;
+    width: 400px;
+}
