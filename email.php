@@ -1,4 +1,4 @@
- // Code for sending e-mail. (Currently sent to send to Luke, this will be changed.)
+// Code for sending e-mail
  
  
   <?php
@@ -13,6 +13,6 @@
  
   		$headers = "From: $email \r\n";
 
-  		mail("lab343@cornell.edu",$email_subject,$email_body,$headers);
+  		mail("rmt225@gmail.com",$email_subject,$email_body,$headers);
   		
   	?>
